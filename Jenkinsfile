@@ -7,7 +7,7 @@ pipeline {
     stages {        
         stage('Clone') {
             steps {
-                git url: 'https://github.com/panthnaik/myservices.git', branch: 'employee'
+                git url: 'https://github.com/Jayesh5124/employee-service.git', branch: 'employee-service'
             }
         }
         stage('Build') {
